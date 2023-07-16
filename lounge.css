@@ -6,37 +6,36 @@ body{
     line-height: 1.6em;
 }
 
-    Main { }
 
-        h1,h2 {
-            color: #007e7e;
-        }
-        h1 { 
-            font-size: 150%;
-        }
-        h2 {
-            font: size 130%;
-        }
+    h1,h2 {
+        color: #007e7e;
+    }
+    h1 { 
+        font-size: 150%;
+    }
+    h2 {
+        font: size 130%;
+    }
 
-        #guarantee { 
-            border-color: rgb(255, 255, 255);
-            border-width: 2px;
-            border-style: dashed;
-            background-color: #a7cece;
-            padding: 25px;
-            margin: 30px;
-            line-height: 1.9em;
-            font-style: italic;
-            color: #444444;
-            font-family: Georgia, 'Times New Roman', Times, serif;
-            background-image: url(images/background.gif);
-            background-repeat: no-repeat;
-            background-position: top left;
-            padding-left: 80px;
-            margin-right: 250px;
-            border-radius: 2em;
-            border-top-left-radius: 0em;
-            border-bottom-right-radius: 0em;
+    #guarantee { 
+        border-color: rgb(255, 255, 255);
+        border-width: 2px;
+        border-style: dashed;
+        background-color: #a7cece;
+        padding: 25px;
+        margin: 30px;
+        line-height: 1.9em;
+        font-style: italic;
+        color: #444444;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        background-image: url(images/background.gif);
+        background-repeat: no-repeat;
+        background-position: top left;
+        padding-left: 80px;
+        margin-right: 250px;
+        border-radius: 2em;
+        border-top-left-radius: 0em;
+        border-bottom-right-radius: 0em;
 
-            /*Side note - classes are meant to be used for styles that you want to reuse with multiple elements. If you’ve got one unique element that you need styled, that’s not really what classes are for.*/
-        }
+        /*Side note - classes are meant to be used for styles that you want to reuse with multiple elements. If you’ve got one unique element that you need styled, that’s not really what classes are for.*/
+    }
